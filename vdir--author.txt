@@ -1,0 +1,12 @@
+[user@localhost ~]$ vdir --author
+total 36
+-rwxrwxrwx. 1 user user user   53 Sep  5 20:12 a
+drwxr-xr-x. 2 user user user 4096 Sep  5 02:25 Desktop
+drwxr-xr-x. 2 user user user 4096 Sep  5 02:25 Documents
+drwxr-xr-x. 2 user user user 4096 Sep  5 02:25 Downloads
+drwxr-xr-x. 2 user user user 4096 Sep  5 02:25 Music
+drwxr-xr-x. 3 user user user 4096 Sep  5 15:19 Pictures
+drwxr-xr-x. 2 user user user 4096 Sep  5 02:25 Public
+drwxr-xr-x. 2 user user user 4096 Sep  5 02:25 Templates
+drwxr-xr-x. 2 user user user 4096 Sep  5 02:25 Videos
+[user@localhost ~]$ 
