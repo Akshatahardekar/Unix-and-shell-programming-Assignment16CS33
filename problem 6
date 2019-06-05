@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+void main()
+{
+	int n , area , area1;
+	
+	printf("Enter the number of small cubes:");
+	scanf("%d" , &n);
+
+	a = srqt(n);
+	b = a;
+	
+	if(a = b)
+		printf("Entered value is valid");
+	else
+		printf("Value is not valid");
+		
+
+		
+	area = 6*(pow(n , 2));
+	
+	printf("Surface area of cube are removed is: %d" , area);
+	
+	area = 6*(pow((n-8) , 2));
+	
+	printf("Surface area when corners are removed is : %d" , area1);
+}
