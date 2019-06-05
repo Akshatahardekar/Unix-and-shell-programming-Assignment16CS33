@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<math.h>
+
+Void main()
+{
+	Float m , c , x , y , xp , yp  , m1;
+	
+	Printf(“Enter the value of slope m:”);
+	Scanf(“%.2f” , &m);
+  
+  Printf(“Enter the value of constant c:”);
+	Scanf(“%.2f” , &c);
+  
+	Printf(“Enter the value of x-axis  :”);
+	Scanf(“%.2f” , &x);
+
+	Y = (m*x)+c;
+  
+	Printf(“Enter a random pint on 2d space:”);
+	Scanf(“%.2f  %.2f” , &xp , &yp);
+  
+	m1 = (yp-y)/(xp-x);
+  
+	If(m1 = m)
+		Printf(“The given point lies on the line”);
+	Else
+		Printf(“The given point dosent lie on the line”);
+	
+}
