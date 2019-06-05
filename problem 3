@@ -1,0 +1,64 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+void main()
+{
+	int k , a[k] , i , n , n2 , count , tot , count1 , k1;
+	float pro , pro1;
+	count = 0;count1 = 0                                        //initialize the variables
+	
+	printf("Enter the number of digits of integer:");
+	scanf("%d" , &k);                                          //input of k
+	
+	printf("Enter the integer:");
+	for(i = 0 ; i < k; i++)
+		scanf("%d" , &a[i]);                                    //input of integer inform of array
+		
+	printf("Enter the place value of integer:";
+	scanf("%d" , &n);
+	
+	if(n > k-1)
+		printf("Please Re enter");
+	else
+	{
+		if(a[n] != 0)
+		count++;
+		if(a[n] != 5)
+		count++;
+		if(a[n] != 9)
+		count++;
+	}
+	
+	tot = 3*k;                                              //total no of outcomes
+	pro = count/tot;                                        //probability
+	
+	printf("The probability is %.2f" , pro);
+	
+	printf("0 , 1 , 3 , 4 , 5 , 7 , 9");
+	printf("Enter the number of digits of integer:");
+	scanf("%d" , &k1);
+	printf("enter integer with only these digits:");
+	for(i = 0 ; i < k1; i++)
+		scanf("%d" , &a[i]);
+		
+	printf("Enter the place value of integer:");
+	scanf("%d" , &n1);
+	
+	if(n1 > k1-1)
+		printf("Please Re enter");
+	else
+	{
+		if(a[n1] != 0)
+		count1++;
+		if(a[n1] != 5)
+		count1++;
+		if(a[n1] != 9)
+		count1++;
+	}
+	
+	tot1 = 3*k1;
+	pro1 = count1/tot1;
+	
+	printf("The probability is %.2f" , pro1);
+}
