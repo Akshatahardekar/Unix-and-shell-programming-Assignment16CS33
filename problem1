@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+void main()
+{
+	int a[2][2] , i , j  , b[2][2] , c[2][2] , det;
+	b[2][2] = {x , 0 , 0 , x};                      //b is the identity matrix with a multimple x;
+	
+	printf("Enter the matrix of order 2x2:")
+	for(i = o ; i < 2; i++)
+		for(j = o ; j < 2; j++)
+			scanf("%d" , &a[i][j]);                     //scanning of the matrix
+			
+	for(i = o ; i < 2; i++)
+		for(j = o ; j < 2; j++)
+			c[i][i] = a[i][j]*b[i][j];                  //multiply the two matrices
+			
+	//det = (c[0][0]*c[1][1]) - (c[0][1]*c[1][0]);  //we can find the determinant value or take from user;
+	printf("Enter the det value of the matrix in form of quadratic equation:")
+	scanf("%d %d %d" , &p , &q , &r);
+
+	res = pow(q , 2) - (4*p*r);                     //calculating the value of the quadratic equation formed;
+	
+	if(res > o)
+		printf("The eigen value exists for the given matrix");
+	else
+		printf("Negative eigen value exists for the given matrix");
+		
+	
+}
